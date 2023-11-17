@@ -43,5 +43,33 @@ colon_func
 sequency <- seq(50, 100, by=5)
 sequency
 
-_sequency <- seq(1, 10, length=10)
-_sequency
+sequency_ <- seq(1, 10, length=10)
+sequency_
+
+# data types
+logic <- 5 == 7
+logic
+
+logic <- 5 != 7
+logic
+
+a <- 7
+class(a)
+
+b <- "one"
+class(b)
+
+vector_b <- c(7, 8, 3, 2, 6) # numeric vector
+vector_b
+
+class(vectorb)
+
+vector_c <- c(TRUE, FALSE, TRUE)    # logical vector
+vector_c
+class(vector_c)
+
+vector_d <- c("one", "two", "three")
+vector_d
+class(vector_d)
+
+
